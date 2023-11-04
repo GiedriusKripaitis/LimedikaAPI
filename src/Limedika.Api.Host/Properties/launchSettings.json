@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Limedika.Api.Host": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "v1/api/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000",
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/v1/api/swagger",
+      "publishAllPorts": true
+    }
+  }
+}

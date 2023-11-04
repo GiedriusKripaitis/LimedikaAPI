@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Limedika.Contracts\Limedika.Contracts.csproj" />
+		<ProjectReference Include="..\Limedika.Infrastructure\Limedika.Infrastructure.csproj" />
+		<ProjectReference Include="..\Limedika.Integrations\Limedika.Integrations.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	</ItemGroup>
+
+</Project>
